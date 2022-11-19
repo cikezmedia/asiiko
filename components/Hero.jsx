@@ -10,7 +10,10 @@ const Hero = () => {
   const [showModal, setShowModal] = useState();
   return (
     <>
-      <div className='grid grid-cols-1 items-center lg:grid-cols-2 m-auto gap-10 pt-16 lg:pt-0'>
+      <div className='grid grid-cols-1 items-center lg:grid-cols-2 m-auto gap-10 pt-16 lg:pt-0 pb-10'>
+        <div className='lg:order-last'>
+          <Image src={Banner} alt='banner image' />
+        </div>
         <div className='relative flex flex-col gap-4'>
           <h2 className='text-4xl lg:text-5xl font-bold tracking-wider max-w-lg leading-snug lg:leading-snug'>
             Track Your Employees&apos; Time And Automate Your Timesheets.
@@ -21,16 +24,16 @@ const Hero = () => {
             timesheets. Every day, real-time updates that let you keep on top of
             your team&apos;s job activities.
           </p>
-          <div className='flex flex-row items-center gap-6 pt-4'>
+          <div className='flex flex-row text-sm lg:text-base items-center font-bold gap-4 pt-4'>
             <button
               onClick={() => setShowModal(true)}
-              className='bg-primary p-2 px-6 rounded-lg font-medium text-white'
+              className='bg-primary p-2 px-4 lg:px-6 rounded-lg  text-white'
               title='GET STARTED TODAY'
             >
               GET STARTED TODAY
             </button>
             <button
-              className='bg-secondary text-gray-700 font-medium p-2 px-6 rounded-lg'
+              className='bg-secondary text-gray-700 p-2 px-4 lg:px-6 rounded-lg'
               title='LEARN MORE'
             >
               LEARN MORE
@@ -42,9 +45,6 @@ const Hero = () => {
           <div className='absolute hidden lg:block -bottom-16 right-20'>
             <Image src={Particle2} alt='' />
           </div>
-        </div>
-        <div className=''>
-          <Image src={Banner} alt='banner image' />
         </div>
       </div>
       <Modal isVisible={showModal} onClose={() => setShowModal(false)} />
