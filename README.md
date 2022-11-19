@@ -8,4 +8,4 @@ npm run dev
 yarn dev
 ```
 
-View demo at [https://asiiko.vercel.app](https://asiiko.vercel.app).
+View demo at [https://asiiko.vercel.app](https://asiiko.vercel.app)
