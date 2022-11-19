@@ -15,14 +15,14 @@ const Modal = ({ isVisible, onClose }) => {
         id='wrapper'
         onClick={handleClose}
       >
-        <div className='relative flex flex-col w-full max-w-4xl rounded-lg p-10 gap-10 bg-white'>
+        <div className='relative flex flex-col w-full max-w-4xl rounded-lg p-6 gap-10 bg-white'>
           <button
-            className='absolute top-6 right-6 select-none'
+            className='absolute top-5 right-5 select-none'
             onClick={() => onClose()}
           >
             <VscChromeClose className='w-6 h-6' />
           </button>
-          <h2 className='flex mx-auto text-center text-2xl max-w-xs font-semibold tracking-wide'>
+          <h2 className='flex mx-auto text-center text-2xl max-w-xs font-semibold tracking-wide pt-6 lg:pt-0'>
             Start uisng Asiiko for your team today
           </h2>
           <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
