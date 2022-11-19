@@ -27,13 +27,13 @@ const Hero = () => {
           <div className='flex flex-row text-sm lg:text-base items-center font-bold gap-4 pt-4'>
             <button
               onClick={() => setShowModal(true)}
-              className='bg-primary p-2 px-4 lg:px-6 rounded-lg  text-white'
+              className='bg-primary p-3 px-4 lg:px-6 rounded-lg  text-white'
               title='GET STARTED TODAY'
             >
               GET STARTED TODAY
             </button>
             <button
-              className='bg-secondary text-gray-700 p-2 px-4 lg:px-6 rounded-lg'
+              className='bg-secondary text-gray-700 p-3 px-4 lg:px-6 rounded-lg'
               title='LEARN MORE'
             >
               LEARN MORE
