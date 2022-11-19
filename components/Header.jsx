@@ -39,7 +39,7 @@ const Header = () => {
               <ul className='flex flex-row font-medium items-center gap-6'>
                 <li>PRODUCT</li>
                 <li>WHO WE SERVE</li>
-                <li>PRICNG</li>
+                <li>PRICING</li>
               </ul>
             </div>
             <div className='flex flex-row items-center place-content-end gap-6'>
@@ -75,7 +75,7 @@ const Header = () => {
               <ul className='flex flex-col pt-8 gap-5'>
                 <li>PRODUCT</li>
                 <li>WHO WE SERVE</li>
-                <li>PRICNG</li>
+                <li>PRICING</li>
               </ul>
               <div className='flex flex-row items-center gap-6'>
                 <button
